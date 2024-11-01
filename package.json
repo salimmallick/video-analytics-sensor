@@ -1,0 +1,34 @@
+{
+  "name": "@salimmallick/video-analytics-sensor",
+  "version": "1.0.0",
+  "description": "AI-powered video analytics sensor for OTT applications",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepublish": "npm run build"
+  },
+  "dependencies": {
+    "rxjs": "^7.8.1"
+  },
+  "peerDependencies": {
+    "react": ">=16.8.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.0",
+    "typescript": "^5.0.0"
+  },
+  "keywords": [
+    "video",
+    "analytics",
+    "metrics",
+    "monitoring",
+    "ott"
+  ],
+  "author": "Salim Mallick",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/salimmallick/video-analytics-sensor.git"
+  }
+}

@@ -1,0 +1,14 @@
+src/
+tests/
+coverage/
+.github/
+.vscode/
+.idea/
+.gitignore
+.npmignore
+tsconfig.json
+jest.config.js
+*.test.ts
+*.test.tsx
+*.spec.ts
+*.spec.tsx
